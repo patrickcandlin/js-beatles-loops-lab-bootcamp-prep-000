@@ -28,6 +28,6 @@ function johnLennonFacts(facts) {
   }
   return johnlennonARRAY;
 }
-function iLoveTheBeatles() {
+function iLoveTheBeatles(num) {
   
 }
