@@ -31,3 +31,17 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   
 }
+
+function iLoveTheBeatles(num) {
+  function incrementVariable() {
+  num = num + 1;
+  return num;
+}
+  do { if (num === 7){
+    for (let i = 0; i < 8; i++) {
+console.log("I love the Beatles!");
+}} else {
+  console.log("I love the Beatles!");
+}
+} while (incrementVariable() < num);
+}
