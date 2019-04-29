@@ -42,4 +42,5 @@ function iLoveTheBeatles(num) {
       beatlesLove.push("I love the Beatles!");
 }
 } while (incrementVariable() < num);
+  return beatlesLove;
 }
